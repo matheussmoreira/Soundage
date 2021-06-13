@@ -10,9 +10,17 @@
 		66F7ED02267613E400B72614 /* HackathonWWDC21App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7ED01267613E400B72614 /* HackathonWWDC21App.swift */; };
 		66F7ED04267613E400B72614 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7ED03267613E400B72614 /* ContentView.swift */; };
 		66F7ED06267613E500B72614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F7ED05267613E500B72614 /* Assets.xcassets */; };
-		66F7ED09267613E500B72614 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F7ED08267613E500B72614 /* Preview Assets.xcassets */; };
 		66F7ED13267613E500B72614 /* HackathonWWDC21Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7ED12267613E500B72614 /* HackathonWWDC21Tests.swift */; };
 		66F7ED1D267613E500B72614 /* HackathonWWDC21UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7ED1C267613E500B72614 /* HackathonWWDC21UITests.swift */; };
+		66F7ED2A2676364600B72614 /* UIStandarts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7ED292676364600B72614 /* UIStandarts.swift */; };
+		66F7ED2C2676398E00B72614 /* ListenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7ED2B2676398E00B72614 /* ListenView.swift */; };
+		66F7ED2E2676399A00B72614 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7ED2D2676399A00B72614 /* ProfileView.swift */; };
+		66F7ED3226763D4800B72614 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7ED3126763D4800B72614 /* Song.swift */; };
+		66F7ED342676401800B72614 /* SongRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7ED332676401800B72614 /* SongRow.swift */; };
+		66F7ED36267643BF00B72614 /* PlayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7ED35267643BF00B72614 /* PlayMode.swift */; };
+		66F7ED3826764D2E00B72614 /* CuriositiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7ED3726764D2E00B72614 /* CuriositiesView.swift */; };
+		66F7ED3A267652E200B72614 /* MeaningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7ED39267652E200B72614 /* MeaningView.swift */; };
+		66F7ED3E26765D5400B72614 /* CompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F7ED3D26765D5400B72614 /* CompleteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +45,19 @@
 		66F7ED01267613E400B72614 /* HackathonWWDC21App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackathonWWDC21App.swift; sourceTree = "<group>"; };
 		66F7ED03267613E400B72614 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66F7ED05267613E500B72614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		66F7ED08267613E500B72614 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		66F7ED0E267613E500B72614 /* HackathonWWDC21Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackathonWWDC21Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F7ED12267613E500B72614 /* HackathonWWDC21Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackathonWWDC21Tests.swift; sourceTree = "<group>"; };
 		66F7ED18267613E500B72614 /* HackathonWWDC21UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackathonWWDC21UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F7ED1C267613E500B72614 /* HackathonWWDC21UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackathonWWDC21UITests.swift; sourceTree = "<group>"; };
+		66F7ED292676364600B72614 /* UIStandarts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStandarts.swift; sourceTree = "<group>"; };
+		66F7ED2B2676398E00B72614 /* ListenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenView.swift; sourceTree = "<group>"; };
+		66F7ED2D2676399A00B72614 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		66F7ED3126763D4800B72614 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		66F7ED332676401800B72614 /* SongRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRow.swift; sourceTree = "<group>"; };
+		66F7ED35267643BF00B72614 /* PlayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayMode.swift; sourceTree = "<group>"; };
+		66F7ED3726764D2E00B72614 /* CuriositiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuriositiesView.swift; sourceTree = "<group>"; };
+		66F7ED39267652E200B72614 /* MeaningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningView.swift; sourceTree = "<group>"; };
+		66F7ED3D26765D5400B72614 /* CompleteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +108,9 @@
 		66F7ED00267613E400B72614 /* HackathonWWDC21 */ = {
 			isa = PBXGroup;
 			children = (
+				66F7ED3026763D3800B72614 /* Model */,
+				66F7ED2F26763D2D00B72614 /* View */,
 				66F7ED01267613E400B72614 /* HackathonWWDC21App.swift */,
-				66F7ED03267613E400B72614 /* ContentView.swift */,
 				66F7ED05267613E500B72614 /* Assets.xcassets */,
 				66F7ED07267613E500B72614 /* Preview Content */,
 			);
@@ -103,7 +120,6 @@
 		66F7ED07267613E500B72614 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				66F7ED08267613E500B72614 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -122,6 +138,30 @@
 				66F7ED1C267613E500B72614 /* HackathonWWDC21UITests.swift */,
 			);
 			path = HackathonWWDC21UITests;
+			sourceTree = "<group>";
+		};
+		66F7ED2F26763D2D00B72614 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66F7ED03267613E400B72614 /* ContentView.swift */,
+				66F7ED292676364600B72614 /* UIStandarts.swift */,
+				66F7ED2B2676398E00B72614 /* ListenView.swift */,
+				66F7ED2D2676399A00B72614 /* ProfileView.swift */,
+				66F7ED332676401800B72614 /* SongRow.swift */,
+				66F7ED35267643BF00B72614 /* PlayMode.swift */,
+				66F7ED3726764D2E00B72614 /* CuriositiesView.swift */,
+				66F7ED39267652E200B72614 /* MeaningView.swift */,
+				66F7ED3D26765D5400B72614 /* CompleteView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66F7ED3026763D3800B72614 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66F7ED3126763D4800B72614 /* Song.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,7 +268,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66F7ED09267613E500B72614 /* Preview Assets.xcassets in Resources */,
 				66F7ED06267613E500B72614 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,7 +293,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66F7ED3226763D4800B72614 /* Song.swift in Sources */,
+				66F7ED342676401800B72614 /* SongRow.swift in Sources */,
+				66F7ED3E26765D5400B72614 /* CompleteView.swift in Sources */,
 				66F7ED04267613E400B72614 /* ContentView.swift in Sources */,
+				66F7ED2C2676398E00B72614 /* ListenView.swift in Sources */,
+				66F7ED3A267652E200B72614 /* MeaningView.swift in Sources */,
+				66F7ED36267643BF00B72614 /* PlayMode.swift in Sources */,
+				66F7ED2E2676399A00B72614 /* ProfileView.swift in Sources */,
+				66F7ED2A2676364600B72614 /* UIStandarts.swift in Sources */,
+				66F7ED3826764D2E00B72614 /* CuriositiesView.swift in Sources */,
 				66F7ED02267613E400B72614 /* HackathonWWDC21App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
