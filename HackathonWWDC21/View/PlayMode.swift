@@ -20,10 +20,16 @@ struct PlayMode: View {
         switch modeSelected {
             case .curiosities:
                 CuriositiesView(modeSelected: $modeSelected, song: song)
+                    .animation(.easeInOut(duration: 1.5))
+                    .transition(.opacity)
             case .meaning:
                 MeaningView(modeSelected: $modeSelected, song: song)
+                    .animation(.easeInOut(duration: 1.5))
+                    .transition(.opacity)
             case .complete:
                 CompleteView(modeSelected: $modeSelected, song: song).ignoresSafeArea(.keyboard)
+                    .animation(.easeInOut(duration: 1.5))
+                    .transition(.opacity)
             default:
                 ZStack {
                     Gradient.pinkGradient
@@ -66,9 +72,9 @@ struct PlayMode: View {
                         Spacer()
                     }
                 }
+                .animation(.easeInOut(duration: 1.5))
+                .transition(.opacity)
         }
-        
-        
         
     }
 }

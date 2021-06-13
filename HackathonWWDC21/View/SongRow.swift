@@ -25,7 +25,10 @@ struct SongRow: View {
                     .frame(width: 80, height: 80)
                     .cornerRadius(30)
                 VStack {
-                    Text(song.name).font(.title2).fontWeight(.semibold)
+                    Text(song.name)
+                        .font(.title2)
+                        .fontWeight(.semibold)
+                        .offset(x: -33)
                     Text(song.album + " - " + song.artist)
                 }
                 

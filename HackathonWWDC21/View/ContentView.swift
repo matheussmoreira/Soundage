@@ -20,15 +20,21 @@ struct ContentView: View {
             if selectedScreen == .listen {
                 if !tappedToListen {
                     ListenView(tappedToListen: $tappedToListen)
+                        .animation(.easeInOut(duration: 1.5))
+                        .transition(.opacity)
                 } else {
                     PlayMode(
                         tappedToListen: $tappedToListen,
                              song: Songs.all.first!
                     )
+                        .animation(.easeInOut(duration: 1.5))
+                        .transition(.opacity)
                 }
                 
             } else {
                 ProfileView()
+                    .animation(.easeInOut(duration: 1.5))
+                    .transition(.opacity)
             }
             
             VStack {
