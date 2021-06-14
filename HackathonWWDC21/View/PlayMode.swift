@@ -59,13 +59,13 @@ struct PlayMode: View {
                                     .font(.title)
                                 Button(action : {modeSelected = .curiosities}) {
                                     OptionCard(optionName: .curiosity)
-                                }
+                                }.padding(5)
                                 Button(action : {modeSelected = .meaning}) {
                                     OptionCard(optionName: .meaning)
-                                }
+                                }.padding(5)
                                 Button(action : {modeSelected = .complete}) {
                                     OptionCard(optionName: .complete)
-                                }
+                                }.padding(5)
                             }
                         }.offset(y: -50)
                         

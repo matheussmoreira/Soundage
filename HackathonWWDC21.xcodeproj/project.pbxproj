@@ -180,6 +180,8 @@
 			dependencies = (
 			);
 			name = HackathonWWDC21;
+			packageProductDependencies = (
+			);
 			productName = HackathonWWDC21;
 			productReference = 66F7ECFE267613E400B72614 /* HackathonWWDC21.app */;
 			productType = "com.apple.product-type.application";
@@ -252,6 +254,8 @@
 				Base,
 			);
 			mainGroup = 66F7ECF5267613E400B72614;
+			packageReferences = (
+			);
 			productRefGroup = 66F7ECFF267613E400B72614 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";

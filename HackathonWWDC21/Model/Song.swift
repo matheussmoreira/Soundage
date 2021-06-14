@@ -33,26 +33,26 @@ public class Songs {
         albumCover: UIImage(named: "bornThisWay")!)
     
     static let song2 = Song(
-        name: "Born This Way",
-        album: "Born This Way",
-        artist: "Lady Gaga",
-        albumCover: UIImage(named: "bornThisWay")!)
+        name: "Solar Power",
+        album: "Solar Power",
+        artist: "Lorde",
+        albumCover: UIImage(named: "solarPower")!)
     
     static let song3 = Song(
-        name: "Born This Way",
-        album: "Born This Way",
-        artist: "Lady Gaga",
-        albumCover: UIImage(named: "bornThisWay")!)
+        name: "Limbo",
+        album: "Typhoons",
+        artist: "Royal Blood",
+        albumCover: UIImage(named: "typhoons")!)
     
     static let song4 = Song(
-        name: "Born This Way",
-        album: "Born This Way",
-        artist: "Lady Gaga",
-        albumCover: UIImage(named: "bornThisWay")!)
+        name: "I Want Love",
+        album: "I Want Love",
+        artist: "Jessie J",
+        albumCover: UIImage(named: "iWantLove")!)
     
     static let song5 = Song(
-        name: "Born This Way",
-        album: "Born This Way",
-        artist: "Lady Gaga",
-        albumCover: UIImage(named: "bornThisWay")!)
+        name: "Break My Heart",
+        album: "Future Nostalgia",
+        artist: "Dua Lipa",
+        albumCover: UIImage(named: "futureNostalgia")!)
 }

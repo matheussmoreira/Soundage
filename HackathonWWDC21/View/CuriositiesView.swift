@@ -39,11 +39,11 @@ struct CuriositiesView: View {
                         Spacer()
                     }
                     
-                    Text("Duis porttitor hendrerit ligula a blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ")
+                    Text("In this verse, Lady Gaga starts talking about her  self-acceptance lesson coming from her mother")
                         .font(.title2)
                         .fontWeight(.medium)
-                        .frame(maxWidth: 275)
-                        .offset(y: -30)
+                        .frame(maxWidth: 270)
+                        .offset(x: -28, y: -30)
                 }
                 
                 Spacer()

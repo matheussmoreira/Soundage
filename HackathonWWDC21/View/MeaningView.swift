@@ -43,6 +43,7 @@ struct MeaningView: View {
                         .font(.title2)
                         .fontWeight(.medium)
                         .frame(maxWidth: 275)
+                        .offset(x: -7)
                 }
                 
                 Spacer()

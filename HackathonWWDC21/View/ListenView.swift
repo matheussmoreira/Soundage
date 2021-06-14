@@ -24,8 +24,11 @@ struct ListenView: View {
                 Spacer()
                 
                 Button(action: { tappedToListen = true}) {
-                    Ellipse()
-                        .fill(Color.black)
+                    //Ellipse()
+                        //.fill(Color.black)
+                    Image("Logo")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
                         .frame(width: 300, height: 300)
                 }
                 
